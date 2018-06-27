@@ -1,0 +1,331 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700');
+
+/*BODY & CONTAINER*/
+body {
+	font-family: "Raleway";
+	font-weight: 400;
+	font-size: 16px;
+	color: #101010;	
+	background-color: #ffffff;
+}
+
+body .container-fluid {
+	padding: 0px;
+}
+
+/*VIEWS*/
+#views {
+	min-height: calc(100vh - 55px);
+}
+
+/*ROWS*/
+.row {
+	/*eliminating the default bootsrap -15px margin*/
+	margin: 0px;
+}
+
+/*TEXT*/
+h1 {
+	font-family: "Raleway";
+	font-weight: 300;
+	font-size: 30px;
+	color: #555;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Raleway";
+	font-weight: 600;
+	font-size: 18px;
+	color: #555;
+}
+
+p {
+	font-family: "Raleway";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+}
+
+/*NAV BAR*/
+.navbar {
+	background-color: transparent;
+	border: none;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.container-fluid > .navbar-header {
+	margin: 0px;
+}
+
+button.navbar-toggle {
+	border-color: #fff;
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #555;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background-color: #555;
+	border-color: #555;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-brand {
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.container-fluid > .navbar-collapse {
+	margin: 0px;
+}
+
+@media screen and (max-width: 767px) {
+	.container-fluid > .navbar-collapse {
+		background-color: #555;
+	}
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-size: 14px;
+	color: #555;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-default .navbar-nav > li > a {
+		color: #fff;
+	}
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #333;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+
+.nav span.glyphicon {
+	font-size: 16px;
+	color: #555;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+	background-image: none;
+	box-shadow: none;
+	background-color: #555;
+	color: #fff;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	background-color: #555;
+}
+
+.navbar-nav > li > .dropdown-menu img {
+	height: 20px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	color: #fff;
+	background-color: transparent;
+	background-image: none;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #fff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #fff;
+		background-color: transparent;
+		background-image: none;
+		text-decoration: underline;
+	}
+}
+
+/*SIDE NAV & RESOURCES*/
+#side-nav {
+	background-color: #fff;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+/*side nav buttons*/
+.btn-side-nav {
+	width: 100%;
+	padding: 15px;
+	border: none;
+	border-radius: 0;
+	border-bottom: 2px solid #E5E5E5;
+}
+
+.btn-side-nav:hover{
+	color: #fff;
+	font-weight: 600;
+	background-color: #333;
+	border-bottom: 2px solid #333;
+}
+
+.btn-side-nav:focus,
+.btn-side-nav.active {
+	color: #fff;
+	font-weight: 600;
+	background-color: #555;
+	border-bottom: 2px solid #555;
+}
+
+.btn-side-nav {
+	color: #000;
+}
+
+/*BODY CONTENT*/
+.body-content {
+	background-color: #FFF;
+	padding: 20px;
+}
+
+.body-content ul {
+	padding-left: 25px;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+	.body-content ul {
+		margin-bottom: 0px;
+	}
+}
+
+.body-content a {
+	color: #101010;
+}
+
+.body-content a:hover,
+.body-content a:focus {
+	color: #555;
+	text-decoration: underline;
+}
+
+/*BANNER*/
+#banner {
+	margin: -20px -20px 20px -20px;
+}
+
+/*CAROUSEL*/
+#carousel {
+	margin: -20px -20px 20px -20px;
+}
+
+/*RESOURCES*/
+/*Filter*/
+#resource-filter {
+	font-size: 14px;
+	color: #555;
+	background-image: url('../img/filter/magnifyingglass.png');
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	float:right;
+	padding:1px 25px 1px 5px;
+	margin: 10px 15px 10px 0px;
+}
+
+/*Resources*/
+#resources {
+	background-color: #DEDEDE;
+	padding: 30px;
+	min-height: calc(100vh - 115px);
+}
+
+.resources-columns {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	columns: 2;
+}
+
+@media screen and (max-width: 768px) {
+	.resources-columns {
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		columns: 1;
+	}
+}
+
+.resources-columns > div {
+	padding-bottom: 20px;
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+	display: inline-block;
+	width: 100%;
+}
+
+/*resource bullet points*/
+ul {
+	list-style-type: none;
+}
+
+li.audio {
+	list-style-image: url('../img/bullets/headphones.png');
+	padding-right: 7px;
+	padding-bottom: 5px;
+}
+
+li.document {
+	list-style-image: url('../img/bullets/document.png');
+	padding-right: 7px;
+	padding-bottom: 5px;
+}
+
+li.powerpoint {
+	list-style-image: url('../img/bullets/screen.png');
+	padding-bottom: 5px;
+}
+
+/*resource name*/
+.resource-name {
+	font-size: 14px;
+}
+
+/*FOOTER*/
+#footer {
+	color: #fff;
+	background-color: #333;
+	padding:0px;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+#footer p {
+	color: #fff;
+	font-size: 18px;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 15px;
+}

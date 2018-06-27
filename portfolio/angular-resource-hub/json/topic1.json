@@ -1,0 +1,184 @@
+{	
+	"name" : "Topic #1",
+	"carousel" : [
+		{
+			"count" : "0",
+			"path" : "img/banners/banner1.jpg",
+			"alt" : "alt text"
+		},
+		{
+			"count" : "1",
+			"path" : "img/banners/banner2.jpg",
+			"alt" : "alt text"
+		},
+		{
+			"count" : "1",
+			"path" : "img/banners/banner3.jpg",
+			"alt" : "alt text"
+		}
+	],
+	"subtopics" : [
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Praesent Consequat",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Lorem Ipsum",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Dolor Sit Amet",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Consectetur Adipiscing",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "powerpoint",
+					"name" : "Elit In Convallis",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Lorem Sit Amet",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA"],
+			"name" : "Lobortis Accumsan",
+			"resources" : [
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Purus Volutpat",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "audio",
+					"name" : "Tempus Nam Lobortis Neque",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Quis Dolor Luctus",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "powerpoint",
+					"name" : "Tincidunt Maecenas",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Ligula Urna Pellentesque",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "audio",
+					"name" : "Nec Laoreet Vitae",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA"],
+			"name" : "Morbi Quis Laoreet",
+			"resources" : [
+				{
+					"roles" : ["userA"],
+					"type" : "powerpoint",
+					"name" : "Venenatis In Urna",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Praesent At Lectus Eget",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Nisi Faucibus Tristique",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "audio",
+					"name" : "Luctus Eu Tellus",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Odio Sed Lectus",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Fusce Non Turpis",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "In Eros Feugiat",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Erat Fringilla",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Blandit Sit Amet",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Quis Ligula",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Ut Interdum",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "powerpoint",
+					"name" : "Justo Ac Purus",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Ultrices A Ultricies",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		}
+	]		
+}

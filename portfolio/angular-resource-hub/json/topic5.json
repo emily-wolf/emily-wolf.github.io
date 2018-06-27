@@ -1,0 +1,117 @@
+{	
+	"name" : "Topic #5",
+	"banner" : {
+			"path" : "img/banners/banner5.jpg",
+			"alt" : "alt text"
+		},
+	"subtopics" : [
+		{
+			"roles" : ["userA"],
+			"name" : "Praesent Conequat",
+			"resources" : [
+				{
+					"roles" : ["userA"],
+					"type" : "audio",
+					"name" : "Lobortis Accumsan",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Morbi Quis Laoreet",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Odio SEd Lectus",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "powerpoint",
+					"name" : "Erat Fringilla In",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Mi Finibus Suscipit",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Pellentesque Quam Donec",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Ultricies Enim Sit Amet",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Enim Cursus Tempus",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Nunc Condimentum Urna Ut",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Tempus Tincidunt",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "powerpoint",
+					"name" : "Praesent Bibendum",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Iaculis Orci",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Maecenas Vehicula",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Nulla Facilisis Finibus",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Condimentum Integer",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Cursus Semper",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Color In Fringilla",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		}
+	]		
+}

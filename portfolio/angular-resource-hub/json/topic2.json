@@ -1,0 +1,105 @@
+{	
+	"name" : "Topic #2",
+	"banner" : {
+			"path" : "img/banners/banner2.jpg",
+			"alt" : "alt text"
+		},
+	"subtopics" : [
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Cras Scelerisque",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Placerat Sapien",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Eu Semper Nunc",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Dignissim Sollicitudin",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Morbi Ut Ante",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Eget Mi Placerat",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Varius At Sed",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "powerpoint",
+					"name" : "Magna Pellentesque",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "At Tortor Vel Mauris",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Placerat Condimentum",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Nulla Ex Orci",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA"],
+			"name" : "Venenatis Et Nisi",
+			"resources" : [
+				{
+					"roles" : ["userA"],
+					"type" : "audio",
+					"name" : "Sed Scelerisque",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Tincidunt Est Proin",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Quam Risus Tincidunt",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Ac Mattis Sed",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		}
+	]		
+}

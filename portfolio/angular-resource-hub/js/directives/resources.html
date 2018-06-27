@@ -1,0 +1,21 @@
+<div class="row">
+	<h1 tabindex="0">{{topic}}</h1>
+</div>
+<div class="row">	
+	<input id="resource-filter" placeholder="Filter this category" ng-model="resourceFilter">
+</div>
+<div class="row">
+	<div class="resources-columns">
+		<div ng-repeat="subtopic in subtopics" ng-if="subtopic.roles.indexOf(role) != -1">
+			<h2 tabindex="0">{{subtopic.name}}</h2>
+			<ul>
+				<li ng-repeat="resource in filteredResources = (subtopic.resources | filter: {name:resourceFilter})" ng-if="resource.roles.indexOf(role) != -1" class="{{resource.type}}">
+					<a class="resource-name" href="{{resource.path}}" target="_blank">{{resource.name}}</a>
+				</li>
+				<li ng-if="filteredResources.length === 0">
+					<a class="resource-name">No results</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,514 @@
+/*****************************FONTS********************************/
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|Titillium+Web:200,300,400');
+
+body {
+    font-family: "Titillium Web";
+    font-weight: 200;
+    font-size: 18px;
+    color: #555;
+}
+
+h1 {
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    display: inline;
+}
+
+@media screen and (max-width: 991px) {
+    h1 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 26px;
+    }
+}
+
+h2 {
+    font-family: "Lora";
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+    h3 {
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.dark {
+    color: #f2f2f2;
+}
+
+.light {
+    color: #fff;
+}
+
+strong {
+    font-family: "Titillium Web";
+    font-weight: 700;
+}
+
+hr.section-break-dark {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    border-top: 1px solid #555;
+    width: 99%;
+}
+
+hr.section-break-light {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    border-top: 1px solid #eee;
+    width: 99%;
+}
+
+/* GLOBAL */
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.section {
+    padding: 70px 40px 40px;
+}
+
+.section-row {
+    padding-bottom: 40px;
+}
+
+.section-icon {
+    display: inline;
+    padding: 0 10px 25px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .section-icon {
+        height: 80px;
+    }
+}
+
+.img-border {
+    border: 2px solid #555;
+}
+
+.section-end-img {
+    margin-bottom: -40px;
+}
+
+a.btn-expand,
+a.btn-expand-carousel {
+    font-size: 18px;
+    background-color: #eee;
+    border: 2px solid #2f2f2f;
+    border-radius: 0px;
+    color: #2f2f2f !important;
+    padding: 5px 20px;
+    margin-top: 10px;
+}
+
+a.btn-expand:hover,
+a.btn-expand:focus,
+a.btn-expand-carousel:hover,
+a.bt-expand-carouse:focus {
+    background-color: #2f2f2f;
+    border: 2px solid #eee;
+    color: #eee !important;
+}
+
+a.btn-expand span,
+a.btn-expand-carousel span {
+    height: 20px;
+    padding-left: 10px;
+}
+
+#modal-img-expand .modal-dialog,
+#modal-carousel-expand .modal-dialog {
+    width: 95%
+}
+
+#modal-carousel-expand .carousel-caption {
+    color: #000;
+    font-size: 32px;
+    background-color: rgba(255,255,255,0.8);
+    text-shadow: none;
+    border-radius: 5px;
+}
+
+#modal-carousel-expand .carousel-indicators li {
+    border: 1px solid #000;
+}
+
+#modal-carousel-expand .carousel-indicators .active {
+    background-color: #000;
+}
+
+/* BACK TO TOP BUTTON */
+#return-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 5px;
+    display: block;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 1010;
+}
+
+#return-to-top img {
+    margin: 0;
+    position: relative;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* BANNER */
+#banner {
+    background-image: url("../img/header/people-2591874_1920_v2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 40px;
+    height: 100vh;
+}
+
+.text-container {
+    padding: 5% 20px;
+}
+
+.text-container img {
+    margin: auto;
+}
+
+.text-content {
+    padding: 5% 0;
+}
+
+.text-content hr {
+    margin-top: 10px;
+}
+
+#banner h1 {
+    font-size: 50px;
+}
+
+#banner h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    #banner h1 {
+        font-size: 51px;
+    }
+}
+
+#banner p {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+/* TOPICS */
+#topics {
+    color: #ddd;
+    line-height: 30px;
+    text-align: center;
+    background-color: #2f2f2f;
+    padding: 10px 40px;
+}
+
+.nav-icon {
+    height: 60px;
+    transition: height .5s;
+}
+
+.nav-icon.shrink-img {
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.nav-text {
+    color: #ddd;
+    font-size: 18px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    height: auto;
+}
+
+.nav-text.shrink-text {
+    visibility: hidden;
+    height: 0px;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-icon {
+        height: 50px;
+    }
+
+    .nav-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav-icon {
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .nav-text {
+        display: none;
+    }
+}
+
+/* SETTING UP YOUR PROFILE */
+#setting-up-your-profile {
+    background-color: #fff;
+    background-image: url('../img/body/mountains-1246555_1920.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 300px;
+}
+
+#setting-up-your-profile h1, 
+#setting-up-your-profile h2,
+#setting-up-your-profile p {
+    color: #2f2f2f;
+}
+
+@media screen and (max-width: 767px) {
+    .img-setup {
+        margin-bottom: 40px;
+    }
+}
+
+#settings-carousel {
+    max-width: 1024px;
+}
+
+#settings-carousel-expanded {
+    max-width: 1024px;
+}
+
+/* SELECTING YOUR ROUTE */
+#selecting-your-route {
+    background-color: #212818;
+}
+
+#selecting-your-route h1, 
+#selecting-your-route h2, 
+#selecting-your-route p {
+    color: #ddd;
+}
+
+.timeline-left {
+    text-align: right;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    border-right: 2px solid #ddd;
+}
+
+@media screen and (max-width: 767px) {
+    .timeline-left {
+        text-align: left;
+        border-right: none;
+    }
+}
+
+.timeline-right {
+    padding-left: 45px;
+    padding-bottom: 20px;
+    border-left: 2px solid #ddd;
+    margin-left: -2px;
+}
+
+@media screen and (max-width: 767px) {
+    .timeline-right {
+        border-left: none;
+        padding-left: 15px;
+    }
+}
+
+.timeline-left-number {
+    position: absolute;
+    top: -10px;
+    right: -85px;
+    height: 80px;
+    width: auto;
+}
+
+.timeline-right-number {
+    position: absolute;
+    top: -10px;
+    left: -85px;
+    height: 80px;
+    width: auto;
+}
+
+#img-choose-your-region {
+    float: right;
+}
+
+#img-choose-your-challenge {
+    float: left;
+}
+
+#img-choose-your-distance {
+    float: right;
+}
+
+#img-choose-your-route {
+    float: left;
+}
+
+#attendance h3 {
+    display: inline;
+}
+
+/* PREPARING FOR YOUR HIKE */
+#preparing-for-your-hike {
+    background-color: #fff;
+    background-image: url('../img/body/photographer-1149214_1920.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 400px;
+}
+
+@media screen and (max-width: 991px) {
+    #check-your-weather h2 {
+        padding-top: 0;
+    }
+}
+
+/* COMMUNICATING WITH FRIENDS */
+#communicating-with-friends {
+    background-color: #5a6171;
+    background-image: url('../img/body/mountain-1031465_1920.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 400px;
+}
+
+#communicating-with-friends h1,
+#communicating-with-friends h2,
+#communicating-with-friends p {
+    color: #eee;
+}
+
+#favorites h2,
+#likes h2 {
+    display: inline;
+    padding-right: 15px;
+}
+
+/* ADJUSTING YOUR SETTINGS */
+#adjusting-your-settings {
+    background-color: #fff;
+    background-image: url('../img/body/grand-canyon-1082260_1920.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 400px;
+}
+
+/* GETTING HELP & SUPPORT */
+#getting-help-and-support {
+    background-color: #4c6c79;
+    background-image: url('../img/body/mountains-480471_1920.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 400px;
+}
+
+#getting-help-and-support h1,
+#getting-help-and-support h2,
+#getting-help-and-support p {
+    color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+    .img-help-support {
+        margin-bottom: 20px;
+    }
+}
+
+/* BOTTOM NAV */
+#bottom-nav {
+    background-color: #2f2f2f;
+}
+
+.img-bottom-nav {
+    padding-bottom: 10px;
+    width: 60px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#bottom-nav h1 {
+    font-family: "Lora";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: none;
+    text-align: center;
+    color: #fff;
+}
+
+#bottom-nav a {
+    font-family: "Titillium Web";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+
+#bottom-nav a:hover,
+#bottom-nav a:focus {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+#footer {
+    background-color: #555;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+p.footer-copyright {
+    font-family: "Titillium Web";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #fff;
+    padding-top: 15px;
+}

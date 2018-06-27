@@ -1,0 +1,125 @@
+{	
+	"name" : "Topic #1",
+	"carousel" : [
+		{
+			"count" : "0",
+			"path" : "img/carousel/placeholder_banner.jpg",
+			"alt" : "alt text"
+		},
+		{
+			"count" : "1",
+			"path" : "img/carousel/placeholder_banner.jpg",
+			"alt" : "alt text"
+		}
+	],
+	"subtopics" : [
+		{
+			"roles" : ["role1", "role2"],
+			"name" : "Subtopic #1",
+			"resources" : [
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				}
+			]
+		},
+		{
+			"roles" : ["role1", "role2"],
+			"name" : "Subtopic #2",
+			"resources" : [
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				}
+			]
+		},
+		{
+			"roles" : ["role1", "role2"],
+			"name" : "Subtopic #3",
+			"resources" : [
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				},
+				{
+					"roles" : ["role1", "role2"],
+					"type" : "document",
+					"name" : "Resource Name",
+					"path" : "#"
+				}
+			]
+		}
+	]		
+}

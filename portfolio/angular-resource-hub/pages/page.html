@@ -1,0 +1,33 @@
+<div class="container-fluid">
+
+  <!--navbar and header-->
+  <header id="navbar-header" class="row"></header>
+
+  <!--side nav and resource content-->
+  <div id="sidenav-resources" class="row">
+
+    <!--side nav bar-->
+    <div id="side-nav" class="hidden-xs col-sm-2 col-md-1">
+      <side-nav></side-nav>
+    </div>
+
+    <!--resources-->
+    <div id="resources" class="col-xs-12 col-sm-10 col-md-11">
+
+        <div class="body-content col-xs-12 col-lg-9">
+
+          <!--banner-->
+          <banner ng-if="banner"></banner>
+
+          <!--carousel-->
+          <carousel ng-if="carousel"></carousel>
+
+          <!--resource content-->
+          <resources></resources>
+
+        </div>
+
+    </div>
+
+  </div><!--end side nav, subtopic nav, angular content-->
+</div><!--end container-fluid-->

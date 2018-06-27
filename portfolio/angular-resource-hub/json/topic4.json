@@ -1,0 +1,183 @@
+{	
+	"name" : "Topic #4",
+	"banner" : {
+			"path" : "img/banners/banner4.jpg",
+			"alt" : "alt text"
+		},
+	"subtopics" : [
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Praesent Sagittis",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "powerpoint",
+					"name" : "Fringilla Velit Ac",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Mollis Donec Mollis",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Ultricies Nisl Non",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Volutpat Massa Suscipit",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Sit Amet Praesent",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Et Est Varius",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Mollis LEctus Sit",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Amet Imperdiet Nulla",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Nullam Pretium",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Posuere Neque",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Eu Eleifent Nulla",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Auctor Risus Non",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Nibh Lobortis",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Quis Laoreet Mauris",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Accumsan Ut Sit",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Amet Elit Viverra",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA"],
+			"name" : "Porttitor Velit Nec",
+			"resources" : [
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Ullamcorper Nulla",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "audio",
+					"name" : "Orci Varius Penatibus",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "audio",
+					"name" : "Et Magnis Dis",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Parturient Montes",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Nascetur Ridiculus Mus",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Aenean Faucibus Nunc",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Nunc Et Varius",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Enim Sodales Vel",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Class Aptent Taciti",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Sociosque Ad Litora",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Torquent Per Conubia",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		}
+	]		
+}

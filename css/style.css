@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700|Nothing+You+Could+Do|Playfair+Display:400,400i,700i');
+
+h1 {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-style: italic;
+	font-size: 48px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h2 {
+    font-family: "Playfair Display";
+    font-weight: 400;
+	font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: "Lato";
+    font-weight: 400;
+	font-size: 20px;
+}
+
+.light {
+    color: #fff;
+}
+
+.dark {
+    color: #101018;
+}
+
+/* GLOBAL */
+body {
+	font-family: "Lato";
+	font-weight: 300;
+    font-size: 18px;
+	color: #555;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.section {
+    padding: 40px;
+}
+
+/*NAVBAR*/
+.navbar {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #555;
+    background-color: transparent;
+	padding: 15px 20px 5px 5px;
+	border: none;
+    border-radius: 0;
+    margin: 0;
+    height: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-header {
+        background-color: rgba(255,255,255,0.35);
+    }
+    .navbar {
+        padding:0;
+        height: auto;
+    }
+    .navbar a {
+        color: #000 !important;
+    }
+    .navbar-collapse {
+        background-color: rgba(0,0,0,0.5);
+    }
+    .navbar-default .navbar-collapse {
+        border-color: transparent;
+    }
+}
+
+.navbar a {
+    font-weight: 300;
+    color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid #888;
+}
+
+@media screen and (min-width: 769px) {
+    .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+      text-align: center;
+    }
+}
+
+/* HEADER */
+#header {
+    height: 100vh;
+    background-image: url(../img/header/background-2846221_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* HEADLINE */
+#headline {
+    text-align: center;
+}
+
+.headline-container {
+    background-color: rgba(255,255,255,0.85);
+    width: 50%;
+    margin: 10% auto auto;
+    padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .headline-container {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .headline-container {
+        width: 70%;
+    }
+}
+
+.headline-text-container {
+    margin: auto;
+    border: 4px solid #c69c6d;
+}
+
+#headline h1 {
+    font-family: "Playfair Display";
+    font-size: 80px;
+    color: #555;
+    padding-top: 20px;
+}
+
+#headline h2 {
+    font-family: "Lato";
+    color: #555;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 26px !important;
+    padding-bottom: 10px;
+    margin-top: 14px;
+}
+
+#headline p {
+    color: #555;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+#headline p span {
+    padding-right: 10px;
+}
+
+#intro-chevron {
+    text-align: center;
+    padding-top: 10%;
+}
+
+#intro-chevron a {
+    color: #fff;
+}
+
+/* BACK TO TOP BUTTON */
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 5px;
+    display: block;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 1010;
+}
+
+#back-to-top img {
+    margin: 0;
+    position: relative;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* ABOUT */
+#about {
+    min-height: 100vh;
+    background-image: url(../img/body/background-2846221_1920_white.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 40px;
+}
+
+.about-intro {
+    font-family: "Lato";
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-content {
+    font-family: "Lato";
+    font-size: 28px;
+    line-height: 44px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .about-content {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+/*BETWEEN 1*/
+#between-1 {
+    background-image: url(../img/body/pexels-photo-179129.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+/* SKILLS */
+#skills {
+    text-align: center;
+    padding-bottom: 40px;
+    background-image: url(../img/body/pexels-photo-179129_white.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#skills-intro {
+    text-align: center;
+}
+
+#skills div.col-xs-6,
+#skills div.col-sm-4 {
+    margin-top: 30px;
+}
+
+#skills img {
+    max-height: 50px;
+}
+
+.skill-name {
+    font-family: "Nothing You Could Do";
+    font-size: 26px;
+    color: #555;
+}
+
+.skill-description {
+    font-size: 18px;
+}
+
+/*BETWEEN 2*/
+#between-2 {
+    background-image: url(../img/header/pexels-photo-179129.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+/* PORTFOLIO */
+#portfolio {
+    padding-bottom: 80px;
+}
+
+#portfolio-intro {
+    text-align: center;
+}
+
+#portfolio div.col-xs-6,
+#portfolio div.col-sm-3 {
+    margin-top: 30px;
+}
+
+.thumbnail-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.thumbnail-title {
+    text-align: center
+}
+
+.resource-link {
+    text-align: center;
+    font-size: 16px;
+}
+
+.disclaimer {
+    font-family: "Lato";
+    font-style: italic;
+    font-size: 14px;
+}
+
+/*CONTACT*/
+#contact {
+    background-color: #555;
+}
+
+#contact .container {
+    height: 40vh;
+}
+
+#contact h1 {
+    color: #fff;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.contact-intro {
+    color: #fff;
+    text-align: center;
+}
+
+.contact-content {
+    font-family: "Nothing You Could Do";
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#contact a {
+    color: #c69c6d;
+}
+
+#map {
+    background-image: url(../img/footer/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}

@@ -1,0 +1,171 @@
+{	
+	"name" : "Topic #3",
+	"banner" : {
+			"path" : "img/banners/banner3.jpg",
+			"alt" : "alt text"
+		},
+	"subtopics" : [
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Nulla Lacinia",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Purus Nec Tristique",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Mauris Augue",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Interdum Ante Tristique",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Viverra Turpis Nibh",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "powerpoint",
+					"name" : "Non Ipsum Praesent",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Eget Ultricies Sapien",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Morbi Molestie Erat",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Et Luctus Maximus",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Vestibulum Sodales Euismod",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Cursus Vestibulum",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Purus Lorem Luctus",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "At Justo Eu Pulvinar",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "powerpoint",
+					"name" : "Fringilla Lorem Phasellus",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Eleifend Molestie Enim",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Eget Tincidunt",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Fusce Non Pretium Magna",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Nec Malesuada Mi",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Suspendisse Enim Neque",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA", "userB"],
+			"name" : "Subtopic 3",
+			"resources" : [
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Posuere Sed Magna Vel",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "audio",
+					"name" : "Aliquam Posuere Tellus",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "powerpoint",
+					"name" : "Nullam Nisl Nisi",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA", "userB"],
+					"type" : "document",
+					"name" : "Luctus Id Ornare",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		},
+		{
+			"roles" : ["userA"],
+			"name" : "Quis Convallis Et Nisi",
+			"resources" : [
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Ut Sodales",
+					"path" : "resources/placeholder.html"
+				},
+				{
+					"roles" : ["userA"],
+					"type" : "document",
+					"name" : "Felis Turpis Sit Amet",
+					"path" : "resources/placeholder.html"
+				}
+			]
+		}
+	]		
+}
