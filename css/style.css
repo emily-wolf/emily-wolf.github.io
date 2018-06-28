@@ -217,13 +217,12 @@ body {
 
 /* ABOUT */
 #about {
-    min-height: 100vh;
     background-image: url(../img/body/background-2846221_1920_white.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 .about-intro {
@@ -254,7 +253,7 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 50vh;
+    height: 30vh;
 }
 
 /* SKILLS */
@@ -298,7 +297,7 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 50vh;
+    height: 30vh;
 }
 
 /* PORTFOLIO */
@@ -340,10 +339,6 @@ body {
 /*CONTACT*/
 #contact {
     background-color: #555;
-}
-
-#contact .container {
-    height: 40vh;
 }
 
 #contact h1 {
