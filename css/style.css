@@ -120,7 +120,9 @@ body {
 .headline-container {
     background-color: rgba(255,255,255,0.85);
     width: 50%;
-    margin: 10% auto auto;
+    margin-top: calc(100vh/4.5);
+    margin-right: auto;
+    margin-left: auto;
     padding: 10px;
 }
 
@@ -133,18 +135,6 @@ body {
 @media screen and (max-width: 991px) {
     .headline-container {
         width: 70%;
-    }
-}
-
-@media screen and (max-height: 600px) {
-    .headline-container {
-        margin-top: 5%;
-    }
-}
-
-@media screen and (min-height: 1000px) {
-    .headline-container {
-        margin-top: 15%;
     }
 }
 
@@ -163,7 +153,7 @@ body {
 #headline h2 {
     font-family: "Lato";
     color: #555;
-    font-weight: 100;
+    font-weight: 300;
     font-style: italic;
     font-size: 26px !important;
     padding-bottom: 10px;
