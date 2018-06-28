@@ -189,6 +189,13 @@ a.btn-expand-carousel span {
     padding: 5% 20px;
 }
 
+@media screen and (max-width: 991px) {
+    .text-container {
+        margin-top: calc (100vh/4.5);
+        padding: 0;
+    }
+}
+
 .text-container img {
     margin: auto;
 }
@@ -303,6 +310,10 @@ a.btn-expand-carousel span {
     }
 }
 
+#logging-in {
+    margin-top: 20px;
+}
+
 #settings-carousel {
     max-width: 1024px;
 }
@@ -320,6 +331,10 @@ a.btn-expand-carousel span {
 #selecting-your-route h2, 
 #selecting-your-route p {
     color: #ddd;
+}
+
+#choosing-your-region {
+    margin-top: 20px;
 }
 
 .timeline-left {
@@ -396,6 +411,10 @@ a.btn-expand-carousel span {
     padding-bottom: 400px;
 }
 
+#check-your-weather {
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 991px) {
     #check-your-weather h2 {
         padding-top: 0;
@@ -418,9 +437,21 @@ a.btn-expand-carousel span {
     padding-bottom: 400px;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
     #communicating-with-friends {
         padding-bottom: 500px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #communicating-with-friends {
+        padding-bottom: 600px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    #communicating-with-friends {
+        padding-bottom: 700px;
     }
 }
 
@@ -428,6 +459,10 @@ a.btn-expand-carousel span {
 #communicating-with-friends h2,
 #communicating-with-friends p {
     color: #eee;
+}
+
+#viewing-your-feed {
+    margin-top: 20px;
 }
 
 #favorites h2,
@@ -472,6 +507,10 @@ a.btn-expand-carousel span {
     .img-help-support {
         margin-bottom: 20px;
     }
+}
+
+#send-us-a-message {
+    margin-top: 20px;
 }
 
 /* BOTTOM NAV */
