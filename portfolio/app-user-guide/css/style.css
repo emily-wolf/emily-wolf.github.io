@@ -189,7 +189,7 @@ a.btn-expand-carousel span {
     padding: 5% 20px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1500px) {
     .text-container {
         margin-top: calc(100vh/4.5);
         padding: 0;
