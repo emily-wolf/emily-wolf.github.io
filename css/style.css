@@ -104,6 +104,7 @@ body {
 /* HEADER */
 #header {
     height: 100vh;
+    min-height: 600px;
     background-image: url(../img/header/background-2846221_1920.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -132,6 +133,12 @@ body {
 @media screen and (max-width: 991px) {
     .headline-container {
         width: 70%;
+    }
+}
+
+@media screen and (min-height: 1000px) {
+    .headline-container {
+        margin-top: 15%;
     }
 }
 
@@ -170,8 +177,17 @@ body {
 }
 
 #intro-chevron {
-    text-align: center;
-    padding-top: 10%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+@media screen and (max-height: 600px) {
+    #intro-chevron {
+        position: unset;
+        text-align: center;
+        padding-top: 5%;
+    }
 }
 
 #intro-chevron a {
