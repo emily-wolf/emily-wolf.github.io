@@ -136,6 +136,12 @@ body {
     }
 }
 
+@media screen and (max-height: 600px) {
+    .headline-container {
+        margin-top: 5%;
+    }
+}
+
 @media screen and (min-height: 1000px) {
     .headline-container {
         margin-top: 15%;
